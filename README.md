@@ -1,4 +1,4 @@
-# 🕒 React OTP Countdown Timer
+# OTP Countdown
 
 A lightweight, reusable React component for handling **One-Time Password (OTP)** countdown logic. This project demonstrates state management with hooks, side-effect handling with `useEffect`, and clean UI updates.
 
