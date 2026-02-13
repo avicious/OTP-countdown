@@ -2,8 +2,6 @@
 
 A lightweight, reusable React component for handling **One-Time Password (OTP)** countdown logic. This project demonstrates state management with hooks, side-effect handling with `useEffect`, and clean UI updates.
 
----
-
 ## ✨ Features
 
 - **Precision Countdown:** Uses a 1-second interval to track remaining time.
