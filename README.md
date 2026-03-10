@@ -24,7 +24,7 @@ The component manages a single state variable, `timeLeft`, representing the tota
 1. **Copy the component** into your project (e.g., `src/components/OTPTimer.jsx`).
 2. **Import and use it** in your main application:
 
-```jsx
+```javascript
 import OTPTimer from "./components/OTPTimer";
 
 function App() {
