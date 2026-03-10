@@ -2,14 +2,14 @@
 
 A lightweight, reusable React component for handling **One-Time Password (OTP)** countdown logic. This project demonstrates state management with hooks, side-effect handling with `useEffect`, and clean UI updates.
 
-## ✨ Features
+## Features
 
 - **Precision Countdown:** Uses a 1-second interval to track remaining time.
 - **Smart Formatting:** Automatically formats single digits (e.g., `0:09` instead of `0:9`) using `padStart`.
 - **Dynamic UI:** The "Resend OTP" button is automatically disabled and greyed out until the timer hits zero.
 - **Memory Safe:** Properly clears intervals when the component unmounts to prevent memory leaks and "stale" state updates.
 
-## 🚀 How It Works
+## How It Works
 
 The component manages a single state variable, `timeLeft`, representing the total seconds remaining.
 
@@ -19,7 +19,7 @@ The component manages a single state variable, `timeLeft`, representing the tota
    - **Seconds:** `totalSeconds % 60`
 3. **The Reset:** Clicking "Resend OTP" resets the state to the initial value, which automatically triggers the `useEffect` to start counting down again.
 
-## 🛠️ Installation & Usage
+## Installation & Usage
 
 1. **Copy the component** into your project (e.g., `src/components/OTPTimer.jsx`).
 2. **Import and use it** in your main application:
